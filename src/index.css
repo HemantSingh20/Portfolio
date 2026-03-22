@@ -33,3 +33,89 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #6d28d9;
 }
+/* Timeline Section */
+
+.section {
+  padding: 80px 10%;
+  background: #0b1220;
+  color: white;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  color: #a855f7;
+}
+
+.timeline {
+  position: relative;
+  border-left: 2px solid #a855f7;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -38px;   /* FIXED ALIGNMENT */
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #a855f7;
+  border-radius: 50%;
+}
+
+.timeline-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.timeline-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.timeline-item p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.experience-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #ccc;
+}
+
+.experience-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.tech-stack {
+  margin-top: 10px;
+  color: #a855f7;
+  font-size: 0.95rem;
+}
+.certificate-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #9333ea, #a855f7);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.certificate-btn:hover {
+  opacity: 0.85;
+}

@@ -10,6 +10,11 @@ const skills = [
   { name: 'MongoDB', level: 75 },
   { name: 'Node.js', level: 75 },
   { name: 'React', level: 70 },
+  { name: 'Power BI', level: 80 },
+  { name: 'Panda', level: 80 },
+  { name: 'NumPy', level: 80 },
+  { name: 'Scikit-learn', level: 75 },
+  { name: 'Matplotlib', level: 75 },
 ];
 
 const Skills = () => {

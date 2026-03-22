@@ -4,6 +4,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Education from "./components/Education";
+import WorkExperience from "./components/WorkExperience";
 import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 
@@ -30,8 +32,10 @@ const App = () => {
               <a href="#home" className="hover:text-purple-400 transition-colors">Home</a>
               <a href="#about" className="hover:text-purple-400 transition-colors">About</a>
               <a href="#skills" className="hover:text-purple-400 transition-colors">Skills</a>
+              <a href="#experience" className="hover:text-purple-400 transition-colors">Experience</a>
               <a href="#projects" className="hover:text-purple-400 transition-colors">Projects</a>
               <a href="#certificates" className="hover:text-purple-400 transition-colors">Certificates</a>
+              <a href="#education" className="hover:text-purple-400 transition-colors">Education</a>
               <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
             </motion.div>
           </div>
@@ -42,8 +46,10 @@ const App = () => {
         <Home />
         <About />
         <Skills />
+        <WorkExperience />
         <Projects />
         <Certificates />
+        <Education />        
         <Contact />
       </main>
 
